@@ -20,7 +20,7 @@ const Home = () => {
 				</Form.Field>
 				<Form.Field>
 					<label>Upload your profile photo</label>
-					<input type="file" placeholder="Last Name" />
+					<input type="file" placeholder="Last Name" accept="image/*" />
 				</Form.Field>
 				<Form.Field>
 					<Checkbox label="I agree to the Terms and Conditions" />
