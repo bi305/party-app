@@ -1,10 +1,16 @@
 import React from "react";
 import { Button, Checkbox, Form, Container } from "semantic-ui-react";
 import styles from "./home.module.css";
+import profile from "../../images/a.png";
 
 const Home = () => {
 	return (
 		<Container className={styles.form_container}>
+			<div className={styles.imgs}>
+				<div className={styles.container_image}>
+					<img src={profile} alt="profile" className={styles.profile} />
+				</div>
+			</div>
 			<Form>
 				<Form.Field>
 					<label>Name </label>
